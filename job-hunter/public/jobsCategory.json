@@ -1,0 +1,27 @@
+
+[
+    {
+      "id": 1,
+      "category_name": "Account & Finance",
+      "jobs_available": 500,
+      "image": "../src/components/images/Icons/accounts 1.png"
+    },
+    {
+      "id": 2,
+      "category_name": "Creative Design",
+      "jobs_available": 1000,
+      "image": "../src/components/images/Icons/business 1.png"
+    },
+    {
+      "id": 3,
+      "category_name": "Marketing & Sales",
+      "jobs_available": 500,
+      "image": "../src/components/images/Icons/social-media 1.png"
+    },
+    {
+      "id": 4,
+      "category_name": "Engineering Job",
+      "jobs_available": 1000,
+      "image": "../src/components/images/Icons/chip 1.png"
+    }
+  ]

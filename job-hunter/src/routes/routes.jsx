@@ -3,8 +3,8 @@ import AppliedJobs from "../components/AppliedJobs/AppliedJobs";
 import Blog from "../components/Blog/Blog";
 import Statistics from "../components/Statistics/Statistics";
 import Main from "../components/Layout/Main";
-import Navigation from "../components/Navigation/Navigation";
 import Home from "../components/Home/Home";
+import JobDetails from "../components/JobDetails/jobDetails";
 
   const router = createBrowserRouter([
     {
@@ -14,6 +14,10 @@ import Home from "../components/Home/Home";
           {
             path: "/",
             element: <Home />
+          },
+          {
+            path: "/job/:id",
+            element: <JobDetails />
           },
           {
             path: "/appliedjobs",

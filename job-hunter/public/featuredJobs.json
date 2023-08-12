@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "companyLogo": "../src/components/images/Logo/google-1-1 1-1.png",
+        "jobTitle": "Software Engineer",
+        "companyName": "Tech Innovators",
+        "remoteOrOnsite": "Remote",
+        "location": "Global",
+        "jobTypes": "Fulltime",
+        "salary": "$100,000 - $120,000",
+        "jobDescription": "We are seeking a skilled Software Engineer to join our dynamic team...",
+        "jobResponsibility": "Develop and maintain high-quality software...",
+        "educationalRequirements": "Bachelor's degree in Computer Science or related field...",
+        "experiences": "3+ years of experience in software development...",
+        "contactInformation": {
+            "phone": "123-456-7890",
+            "email": "jobs@techinnovators.com"
+        }
+    },
+    {
+        "id": 2,
+        "companyLogo": "../src/components/images/Logo/netflix-4 1.png",
+        "jobTitle": "Marketing Specialist",
+        "companyName": "Growth Marketers Inc.",
+        "remoteOrOnsite": "Onsite",
+        "location": "New York, NY",
+        "jobTypes": "Fulltime",
+        "salary": "$60,000 - $75,000",
+        "jobDescription": "We're looking for a creative Marketing Specialist to...",
+        "jobResponsibility": "Develop and implement marketing strategies...",
+        "educationalRequirements": "Bachelor's degree in Marketing or related field...",
+        "experiences": "2+ years of experience in marketing...",
+        "contactInformation": {
+            "phone": "987-654-3210",
+            "email": "hr@growthmarketers.com"
+        }
+    },
+    {
+        "id": 3,
+        "companyLogo": "../src/components/images/Logo/tesla-9 1.png",
+        "jobTitle": "Data Scientist",
+        "companyName": "Data Analytics Co.",
+        "remoteOrOnsite": "Remote",
+        "location": "USA",
+        "jobTypes": "Fulltime",
+        "salary": "$90,000 - $110,000",
+        "jobDescription": "Join our team as a Data Scientist to analyze...",
+        "jobResponsibility": "Develop predictive models and machine learning algorithms...",
+        "educationalRequirements": "Master's degree in Data Science or related field...",
+        "experiences": "4+ years of experience in data science...",
+        "contactInformation": {
+            "phone": "555-123-4567",
+            "email": "info@dataanalyticsco.com"
+        }
+    },
+    {
+        "id": 4,
+        "companyLogo": "../src/components/images/Logo/google-1-1 1.png",
+        "jobTitle": "Graphic Designer",
+        "companyName": "Creative Designs Studio",
+        "remoteOrOnsite": "Onsite",
+        "location": "Los Angeles, CA",
+        "jobTypes": "Part-time",
+        "salary": "$40,000 - $50,000 (Pro-rated)",
+        "jobDescription": "We're seeking a talented Graphic Designer to create...",
+        "jobResponsibility": "Design visual content for various platforms...",
+        "educationalRequirements": "Bachelor's degree in Graphic Design or related field...",
+        "experiences": "2+ years of experience in graphic design...",
+        "contactInformation": {
+            "phone": "111-222-3333",
+            "email": "careers@creativedesigns.com"
+        }
+    },
+    {
+        "id": 5,
+        "companyLogo": "../src/components/images/Logo/netflix-4 1.png",
+        "jobTitle": "Financial Analyst",
+        "companyName": "Capital Investments Ltd.",
+        "remoteOrOnsite": "Onsite",
+        "location": "London, UK",
+        "jobTypes": "Fulltime",
+        "salary": "£50,000 - £65,000",
+        "jobDescription": "Join our finance team as a Financial Analyst to...",
+        "jobResponsibility": "Conduct financial analysis, develop forecasts...",
+        "educationalRequirements": "Bachelor's degree in Finance or related field...",
+        "experiences": "3+ years of experience in financial analysis...",
+        "contactInformation": {
+            "phone": "+44 20 1234 5678",
+            "email": "recruitment@capitalinvestments.co.uk"
+        }
+    },
+    {
+        "id": 6,
+        "companyLogo": "../src/components/images/Logo/tesla-9 1.png",
+        "jobTitle": "Nurse Practitioner",
+        "companyName": "Healthcare Plus Clinic",
+        "remoteOrOnsite": "Onsite",
+        "location": "Chicago, IL",
+        "jobTypes": "Fulltime",
+        "salary": "$80,000 - $100,000",
+        "jobDescription": "We're hiring a Nurse Practitioner to provide...",
+        "jobResponsibility": "Conduct patient assessments, diagnose illnesses...",
+        "educationalRequirements": "Master's degree in Nursing and Nurse Practitioner...",
+        "experiences": "5+ years of experience as a Nurse Practitioner...",
+        "contactInformation": {
+            "phone": "888-555-7890",
+            "email": "careers@healthcareplusclinic.com"
+        }
+    },
+    {
+        "id": 7,
+        "companyLogo": "../src/components/images/Logo/netflix-4 1.png",
+        "jobTitle": "UX/UI Designer",
+        "companyName": "DesignScape Innovations",
+        "remoteOrOnsite": "Remote",
+        "location": "Global",
+        "jobTypes": "Fulltime",
+        "salary": "$70,000 - $90,000",
+        "jobDescription": "Join our design team as a UX/UI Designer to...",
+        "jobResponsibility": "Create user-centered designs and prototypes...",
+        "educationalRequirements": "Bachelor's degree in Design or related field...",
+        "experiences": "3+ years of experience in UX/UI design...",
+        "contactInformation": {
+            "phone": "555-987-6543",
+            "email": "designjobs@designscape.com"
+        }
+    },
+    {
+        "id": 8,
+        "companyLogo": "../src/components/images/Logo/google-1-1 1-1.png",
+        "jobTitle": "Sales Manager",
+        "companyName": "SalesPro Enterprises",
+        "remoteOrOnsite": "Onsite",
+        "location": "Dallas, TX",
+        "jobTypes": "Fulltime",
+        "salary": "$90,000 - $110,000",
+        "jobDescription": "We're seeking an experienced Sales Manager to lead...",
+        "jobResponsibility": "Manage sales team, develop sales strategies...",
+        "educationalRequirements": "Bachelor's degree in Business or related field...",
+        "experiences": "5+ years of experience in sales management...",
+        "contactInformation": {
+            "phone": "123-555-7890",
+            "email": "salescareers@salespro.com"
+        }
+    },
+    {
+        "id": 9,
+        "companyLogo": "../src/components/images/Logo/tesla-9 1.png",
+        "jobTitle": "HR Specialist",
+        "companyName": "PeopleFirst Corp.",
+        "remoteOrOnsite": "Onsite",
+        "location": "Miami, FL",
+        "jobTypes": "Fulltime",
+        "salary": "$50,000 - $65,000",
+        "jobDescription": "Join our HR team as an HR Specialist to...",
+        "jobResponsibility": "Manage recruitment, employee relations...",
+        "educationalRequirements": "Bachelor's degree in Human Resources or related field...",
+        "experiences": "2+ years of experience in HR roles...",
+        "contactInformation": {
+            "phone": "786-555-1234",
+            "email": "hr@peoplefirstcorp.com"
+        }
+    },
+    {
+        "id": 10,
+        "companyLogo": "../src/components/images/Logo/google-1-1 1-1.png",
+        "jobTitle": "Product Manager",
+        "companyName": "InnovateTech Solutions",
+        "remoteOrOnsite": "Remote",
+        "location": "USA",
+        "jobTypes": "Fulltime",
+        "salary": "$110,000 - $130,000",
+        "jobDescription": "We're hiring a Product Manager to lead...",
+        "jobResponsibility": "Define product strategy, prioritize features...",
+        "educationalRequirements": "Bachelor's degree in Business or related field...",
+        "experiences": "5+ years of experience in product management...",
+        "contactInformation": {
+            "phone": "555-876-5432",
+            "email": "productjobs@innovatetech.com"
+        }
+    }
+]
