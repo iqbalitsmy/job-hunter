@@ -36,10 +36,10 @@ const FeaturedJobs = () => {
             </div>
             <div className='pt-6 text-white text-xl font-extrabold text-center'>
                 <button
-                    className='bg-[#9873FF] px-[18px] py-3 rounded'
+                    className={`bg-[#9873FF] px-[18px] py-3 rounded`}
                     type="button"
                     onClick={() => setSeeAll(!seeAll)}
-                >See All Jobs</button>
+                >{seeAll ? 'See Less' : 'See All'}</button>
             </div>
         </section>
     );
