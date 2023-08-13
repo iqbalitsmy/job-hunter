@@ -5,34 +5,43 @@ import Statistics from "../components/Statistics/Statistics";
 import Main from "../components/Layout/Main";
 import Home from "../components/Home/Home";
 import JobDetails from "../components/JobDetails/jobDetails";
+import { findObj } from "../components/Loaders/jsonLoaders";
+import appliedJobLoader from "../utilities/Loaders";
 
-  const router = createBrowserRouter([
-    {
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Main />,
+    children: [
+      {
         path: "/",
-        element: <Main/>,
-        children: [
-          {
-            path: "/",
-            element: <Home />
-          },
-          {
-            path: "/job/:id",
-            element: <JobDetails />
-          },
-          {
-            path: "/appliedjobs",
-            element: <AppliedJobs/>
-          },
-          {
-            path: "/blog",
-            element: <Blog/>
-          },
-          {
-            path: "/statistics",
-            element: <Statistics/>
-          },
-        ]
-    }
-  ])
+        element: <Home />
+      },
+      {
+        path: '/job/:id',
+        element: <JobDetails></JobDetails>,
+        loader: ({params}) => findObj(params.id)
+      },
+      {
+        path: "/appliedjobs",
+        element: <AppliedJobs />,
+        loader: appliedJobLoader
+      },
+      {
+        path: "/blog",
+        element: <Blog />
+      },
+      {
+        path: "/statistics",
+        element: <Statistics />
+      },
+      {
+        path: '*',
+        element: <div>404</div>
+      }
+    ]
+  }
+])
 
-  export default router;
+export default router;

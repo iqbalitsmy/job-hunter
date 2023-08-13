@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import loader from '../Loaders/jsonLoaders';
+import dataFetch from '../Loaders/jsonLoaders';
 import JobCategory from '../JobCategory/JobCategory';
-
-
 
 
 const JobsCategorys = () => {
     const [jobsCategorys, setJobsCategorys] = useState([]);
+
+    // Json file data load
     useEffect(() => {
-        loader("jobsCategory.json").then(data => setJobsCategorys(data))
+        dataFetch("jobsCategory.json").then(data => setJobsCategorys(data))
     }, [])
 
 

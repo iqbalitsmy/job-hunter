@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import loader from '../Loaders/jsonLoaders';
+import dataFetch from '../Loaders/jsonLoaders';
 import FeaturedJob from '../FeaturedJob/FeaturedJob';
 
 const FeaturedJobs = () => {
@@ -16,7 +16,7 @@ const FeaturedJobs = () => {
 
     // Json file data load from loader external function
     useEffect(() => {
-        loader("featuredJobs.json").then(data => setFeaturedJobs(data));
+        dataFetch("featuredJobs.json").then(data => setFeaturedJobs(data));
     }, [])
 
 

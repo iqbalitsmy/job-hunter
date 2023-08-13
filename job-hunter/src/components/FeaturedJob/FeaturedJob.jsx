@@ -4,7 +4,8 @@ import { faLocationDot, faDollarSign } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
 
 const FeaturedJob = ({ featuredJob }) => {
-    const { companyLogo, jobTitle, companyName, remoteOrOnsite, location, jobTypes, salary } = featuredJob;
+    const { id, companyLogo, jobTitle, companyName, remoteOrOnsite, location, jobTypes, salary } = featuredJob;
+    
     return (
         <div className='p-10 shadow-sm'>
             <figure className='pb-8'>
@@ -33,7 +34,7 @@ const FeaturedJob = ({ featuredJob }) => {
                 </div>
                 {/*-------- View Details Section --------*/}
                 <div className='pt-6 text-white text-xl font-extrabold'>
-                    <Link to={"/job/:id"}>
+                    <Link to={`/job/${id}`}>
                         <button className='bg-[#9873FF] px-[18px] py-3 rounded' type="button">View Details</button>
                     </Link>
                 </div>
