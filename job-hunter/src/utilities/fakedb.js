@@ -1,15 +1,7 @@
 // use local storage to manage cart data
 const addToDb = id => {
     let appliedJob = getAppliedJob();
-    // add quantity 
-    const quantity = appliedJob[id];
-    if (!quantity) {
-        appliedJob[id] = 1;
-    }
-    else {
-        const newQuantity = quantity + 1;
-        appliedJob[id] = newQuantity;
-    }
+    appliedJob[id] = 1;
     localStorage.setItem('applied-job', JSON.stringify(appliedJob));
 }
 
@@ -40,5 +32,5 @@ export {
     addToDb,
     removeFromDb,
     getAppliedJob,
-    deleteAppliedJob 
+    deleteAppliedJob
 }
