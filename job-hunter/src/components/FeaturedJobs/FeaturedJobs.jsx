@@ -21,7 +21,7 @@ const FeaturedJobs = () => {
 
 
     return (
-        <section className='mt-32 mb-32'>
+        <section className='mt-32 mb-32' id='featuredJobs'>
             <div className='text-center'>
                 <h1 className='text-5xl font-extrabold pb-4'>Featured Jobs</h1>
                 <p className='font-medium text-[#757575] pb-8'>Explore thousands of job opportunities with all the information you need. Its your future</p>
