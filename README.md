@@ -1,5 +1,6 @@
 # job-hunter
 <ol>
+    <li>Add active style to links on the navbar</li>
     <li>At first, the featured section will show the first four job cards. This featured section also contain a see all jobs button at the bottom of these cards.</li>
     <li>Clicking on the View Details button will redirect the user to the /job/:id route where he/she will see a banner and all the details shown.</li>
     <li>Clicking on the Apply Now button will add that job information to local storage.</li>
