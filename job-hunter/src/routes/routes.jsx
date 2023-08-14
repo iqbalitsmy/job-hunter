@@ -7,6 +7,7 @@ import Home from "../components/Home/Home";
 import JobDetails from "../components/JobDetails/jobDetails";
 import { findObj } from "../components/Loaders/jsonLoaders";
 import appliedJobLoader from "../utilities/Loaders";
+import NotFound from "../components/NotFound/NotFound";
 
 
 const router = createBrowserRouter([
@@ -38,7 +39,7 @@ const router = createBrowserRouter([
       },
       {
         path: '*',
-        element: <div>404</div>
+        element: <NotFound></NotFound>
       }
     ]
   }
